@@ -1,3 +1,4 @@
+import '@/styles/globals.css'
 import Link from 'next/link'
 import { PrismicProvider } from '@prismicio/react'
 import { PrismicPreview } from '@prismicio/next'

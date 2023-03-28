@@ -1,11 +1,20 @@
-const Home = () => {
-  return (
-    <section className='py-24'>
-      <div className='container'>
-        <h1 className='text-3xl font-bold'>Home page</h1>
-      </div>
-    </section>
-  )
+import { SliceZone } from '@prismicio/react'
+
+import { createClient } from '../prismicio'
+import { components } from '../slices'
+
+export default function Page({ page }) {
+  return <SliceZone slices={page.data.slices} components={components} />
 }
 
-export default Home
+export async function getStaticProps({ previewData }) {
+  const client = createClient({ previewData })
+
+  const page = await client.getSingle('homepage')
+
+  return {
+    props: {
+      page
+    }
+  }
+}
