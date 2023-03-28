@@ -1,19 +1,19 @@
 {
   "seo_title": {
     "__TYPE__": "FieldContent",
-    "value": "cool",
+    "value": "snake",
     "type": "Text"
   },
   "seo_description": {
     "__TYPE__": "FieldContent",
-    "value": "end",
+    "value": "useful",
     "type": "Text"
   },
   "slices": {
     "__TYPE__": "SliceContentType",
     "value": [
       {
-        "key": "hero$d91b76d4-f5e8-40ef-b270-9ecc7cb00c30",
+        "key": "hero$abf91638-d179-4f12-bd2d-54b253e19ecf",
         "name": "hero",
         "widget": {
           "__TYPE__": "SharedSliceContent",
@@ -25,7 +25,7 @@
                 {
                   "type": "heading1",
                   "content": {
-                    "text": "Throw"
+                    "text": "Flower"
                   }
                 }
               ]
@@ -36,7 +36,7 @@
                 {
                   "type": "paragraph",
                   "content": {
-                    "text": "Fugiat nisi non veniam aliquip Lorem nisi enim in et irure officia nulla occaecat. Laborum aliquip laborum officia aute sint aliquip nulla cupidatat. Mollit ad enim non dolor anim laborum Lorem in consectetur cillum et sit in ullamco."
+                    "text": "Enim veniam officia fugiat ullamco nulla elit non in fugiat exercitation in consequat cupidatat duis. Commodo duis fugiat officia veniam reprehenderit elit do eiusmod sit veniam do magna ullamco cupidatat."
                   }
                 }
               ]
@@ -45,13 +45,13 @@
               "__TYPE__": "ImageContent",
               "origin": {
                 "id": "main",
-                "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
-                "width": 5616,
-                "height": 3744
+                "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869",
+                "width": 3199,
+                "height": 3199
               },
-              "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
-              "width": 5616,
-              "height": 3744,
+              "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869",
+              "width": 3199,
+              "height": 3199,
               "edit": {
                 "zoom": 1,
                 "crop": {
@@ -61,6 +61,77 @@
                 "background": "transparent"
               },
               "thumbnails": {}
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": []
+            }
+          ]
+        }
+      },
+      {
+        "key": "single_media_highlight$c3efd648-4d4e-40d4-832d-82abd82051c3",
+        "name": "single_media_highlight",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "heading1",
+                  "content": {
+                    "text": "Rubbed"
+                  }
+                }
+              ]
+            },
+            "description": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Reprehenderit laborum irure qui sunt labore elit reprehenderit id non laboris. Cupidatat adipisicing voluptate sunt amet. Consequat ipsum velit minim pariatur elit do consequat dolore fugiat ut."
+                  }
+                }
+              ]
+            },
+            "image": {
+              "__TYPE__": "ImageContent",
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+                "width": 12288,
+                "height": 16384
+              },
+              "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+              "width": 12288,
+              "height": 16384,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "thumbnails": {}
+            },
+            "link": {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "http://google.com"
+              }
+            },
+            "theme": {
+              "__TYPE__": "FieldContent",
+              "value": "Blue",
+              "type": "Select"
             }
           },
           "items": [

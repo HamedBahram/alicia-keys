@@ -1,0 +1,38 @@
+import RichText from '@/components/RichText'
+import { getThemeClassNames } from '@/lib'
+import { PrismicNextImage } from '@prismicio/next'
+import { PrismicLink } from '@prismicio/react'
+import clsx from 'clsx'
+
+/**
+ * @typedef {import("@prismicio/client").Content.SingleMediaHighlightSlice} SingleMediaHighlightSlice
+ * @typedef {import("@prismicio/react").SliceComponentProps<SingleMediaHighlightSlice>} SingleMediaHighlightProps
+ * @param { SingleMediaHighlightProps }
+ */
+const SingleMediaHighlight = ({ slice }) => {
+  return (
+    <PrismicLink field={slice.primary.link} target='_blank' className='z-10'>
+      <div className={clsx(getThemeClassNames(slice.primary.theme), 'p-10')}>
+        <RichText
+          field={slice.primary.title}
+          className='max-w-lg text-4xl font-bold uppercase'
+        />
+        <RichText
+          field={slice.primary.description}
+          className='mt-1 text-lg font-semibold uppercase'
+        />
+
+        <div className='p-24'>
+          <div className='relative'>
+            <PrismicNextImage
+              field={slice?.primary?.image}
+              className='object-cover'
+            />
+          </div>
+        </div>
+      </div>
+    </PrismicLink>
+  )
+}
+
+export default SingleMediaHighlight

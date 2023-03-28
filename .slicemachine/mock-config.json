@@ -1,6 +1,11 @@
 {
   "slices": {
-    "Hero": {}
+    "Hero": {},
+    "SingleMediaHighlight": {
+      "default": {
+        "primary": {}
+      }
+    }
   },
   "_cts": {
     "homepage": {}

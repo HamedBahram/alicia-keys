@@ -26,6 +26,9 @@
           "choices": {
             "hero": {
               "type": "SharedSlice"
+            },
+            "single_media_highlight": {
+              "type": "SharedSlice"
             }
           }
         }
