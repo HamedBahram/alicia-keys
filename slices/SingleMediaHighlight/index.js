@@ -10,9 +10,6 @@ import clsx from 'clsx'
  * @param { SingleMediaHighlightProps }
  */
 const SingleMediaHighlight = ({ slice }) => {
-  // TODO: Implement variation
-  // slice.variation === 'fullWidthImage'
-
   return (
     <PrismicLink field={slice.primary.link} target='_blank' className='z-10'>
       <div
