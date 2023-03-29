@@ -3,7 +3,7 @@ import { PrismicNextImage } from '@prismicio/next'
 
 const Hero = ({ slice }) => {
   return (
-    <section className='relative h-[75vh]'>
+    <section className='sticky top-0 h-[75vh]'>
       <PrismicNextImage
         field={slice?.primary?.image}
         className='object-cover'

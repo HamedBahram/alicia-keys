@@ -22,7 +22,7 @@ export default function Page({ page }) {
           transformOrigin: 'center bottom'
         })
         gsap.to(box, {
-          '--blurIntensity': '50px',
+          '--blurIntensity': '20px',
           y: '100vh',
           bottom: 0,
           ease: 'none',
