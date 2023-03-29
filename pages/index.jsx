@@ -29,8 +29,8 @@ export default function Page({ page }) {
           duration: 3,
           scrollTrigger: {
             trigger: box,
-            start: 'bottom bottom',
-            end: 'bottom top',
+            start: 'bottom bottom', // When the bottom of the slice hits the bottom of the viewport
+            end: 'bottom top', // When the bottom of the slice hits the top of the viewport
             scrub: true
           }
         })
