@@ -28,7 +28,6 @@ export default function Page({ page }) {
           ease: 'none',
           duration: 3,
           scrollTrigger: {
-            markers: true,
             trigger: box,
             start: 'bottom bottom',
             end: 'bottom top',
